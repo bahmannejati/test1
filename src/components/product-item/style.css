@@ -1,0 +1,74 @@
+.product-item{
+    width: 25%;
+}
+.product-spacer {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+
+    background-color: #fff;
+    box-shadow: 0 0 0 1px #ccc;
+
+    text-align: left;
+}
+
+.image-holder {
+    position: relative
+}
+.image-holder .overlay{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(46, 204, 113, 0.7);
+    
+    opacity: 0;
+}
+.image-holder .overlay:hover,
+.image-holder .overlay.active{
+    opacity: 1;
+}
+.image-holder .overlay .compare-button {
+    padding: 7px 20px;
+
+    color: #fff;
+    font-size: 17px;
+    background-color: transparent;
+
+    appearance: none;
+    border: none;
+
+    box-shadow: 0 0 0 2px #fff;
+
+    cursor: pointer;
+}
+.image-holder .overlay .compare-button.filled {
+    background-color: #fff;
+    color: #000;
+}
+
+
+
+.pro-detail {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+.pro-title{
+    font-size: 20px;
+}
+.salary-holder{
+    float: right;
+
+    color: #909090;
+}
+.pro-description{
+    color: #b5b5b5;
+    font-size: 16px;
+}

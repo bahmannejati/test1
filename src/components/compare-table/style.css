@@ -1,0 +1,22 @@
+.compare-table {
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    background-color: #fff;
+}
+.compare-table .first-column {
+    width: 100px;
+}
+
+.compare-table td{
+    padding: 20px 10px;
+
+    border-bottom: 1px solid #ececec;
+}
+
+
+.inner-first-column {
+    background-color: #f3f3f3;
+}
